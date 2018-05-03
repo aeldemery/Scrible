@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Scrible
+GenericName=Scrible App
+Comment=Playing with Vala!
+Categories=Utility;Education;
+Exec=com.github.eldemery.Scrible
+Icon=application-default-icon
+Terminal=false
+Type=Application
+X-GNOME-gettext-Domain=scrible
+Keywords=Scrible;Example;
