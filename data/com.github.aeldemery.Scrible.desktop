@@ -2,10 +2,10 @@
 Name=Scrible
 GenericName=Scrible App
 Comment=Playing with Vala!
-Categories=Utility;Education;
-Exec=com.github.eldemery.Scrible
+Categories=Education;
+Exec=com.github.aeldemery.Scrible
 Icon=application-default-icon
 Terminal=false
 Type=Application
-X-GNOME-gettext-Domain=scrible
+X-GNOME-Gettext-Domain=scrible
 Keywords=Scrible;Example;

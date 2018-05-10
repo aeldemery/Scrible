@@ -24,7 +24,7 @@
 
     # now let's actually check for the required dependencies
     pkg_check_modules(DEPS REQUIRED gtk+-3.0)
-
+        
     add_definitions(${DEPS_CFLAGS})
     link_libraries(${DEPS_LIBRARIES})
     link_directories(${DEPS_LIBRARY_DIRS})
@@ -40,6 +40,7 @@
     include(ValaPrecompile)
     vala_precompile(VALA_C ${EXEC_NAME}
         src/scrible.vala
+        src/about.vala
 
     # tell what libraries to use when compiling
     PACKAGES
